@@ -24,3 +24,12 @@ function clickDisLike1(){
   countDisLike1.textContent = totalDisLikes.toString()
 }  
 btnDisLike1.addEventListener("click",clickDisLike1)
+
+const btnDisLike2 = document.getElementById("btnDisLike2")
+const countDisLike2 = document.getElementById("countDisLike2")
+
+function clickDisLike2(){
+  let totalDisLikes = parseInt(countDisLike2.value) + 1
+  countDisLike2.textContent = totalDisLikes.toString()
+}  
+btnDisLike2.addEventListener("click",clickDisLike2)
