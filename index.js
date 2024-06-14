@@ -37,12 +37,6 @@ btnDisLike2.addEventListener("click",clickDisLike2)
 const btnSmile1 = document.getElementById("btnSmile1")
 const countSmile1 = document.getElementById("countSmile1")
 
-
-
-const btnAngry2= document.getElementById("btnAngry2")
-const countAngry2 = document.getElementById("countAngry2")
-
-
 function clickSmile1(){
   let totalSmile1 = parseInt(countSmile1.value) + 1
   countSmile1.textContent = totalSmile1.toString()
