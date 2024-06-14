@@ -34,6 +34,55 @@ function clickDisLike2(){
 }  
 btnDisLike2.addEventListener("click",clickDisLike2)
 
+const btnSmile1 = document.getElementById("btnSmile1")
+const countSmile1 = document.getElementById("countSmile1")
+const btnSmile2 = document.getElementById("btnSmile2")
+const countSmile2 = document.getElementById("countSmile2")
+const btnLove1 = document.getElementById("btnLove1")
+const countLove1= document.getElementById("countLove1")
+const btnLove2 = document.getElementById("btnLove2")
+const countLove2 = document.getElementById("countLove2")
+const btnAngry1 = document.getElementById("btnAngry1")
+const countAngry1 = document.getElementById("countAngry1")
+const btnAngry2= document.getElementById("btnAngry2")
+const countAngry2 = document.getElementById("countAngry2")
+
+
+
+function clickSmile1(){
+  let totalSmile1 = parseInt(countSmile1.value) + 1
+  countSmile1.textContent = totalSmile1.toString()
+}  
+btnSmile1.addEventListener("click",Smile1)
+function clickSmile2(){
+  let totalSmile2 = parseInt(countSmile1.value) + 1
+  countSmile2.textContent = totalSmile2.toString()
+}  
+btnSmile2.addEventListener("click",Smile2)
+
+function clickLove1(){
+  let totalLove1 = parseInt(countlove1.value) + 1
+  countLove1.textContent = totalLove1.toString()
+}  
+btnLove1.addEventListener("click",Love1)
+function clickLove2(){
+  let totalLove2 = parseInt(countlove2.value) + 1
+  countLove2.textContent = totalLove2.toString()
+}  
+btnLove2.addEventListener("click",Love2)
+
+function clickAngry1(){
+  let totalAngry1 = parseInt(countAngry1.value) + 1
+  countAngry1.textContent = totalAngry1.toString()
+}  
+btnAngry1.addEventListener("click",Angry1)
+function clickAngry2(){
+  let totalAngry2 = parseInt(countAngry2.value) + 1
+  countAngry2.textContent = totalAngry2.toString()
+}  
+btnAngry2.addEventListener("click",Angry2)
+
+
 const submit = document.getElementById("submit")
 
 const comment = document.getElementById("comment")
