@@ -51,23 +51,23 @@ function clickSmile2(){
 }  
 btnSmile2.addEventListener("click",clickSmile2)
 
-const btnLove1 = document.getElementById("btnLove1")
-const countLove1= document.getElementById("countLove1")
+const btnPuso1 = document.getElementById("btnPuso1")
+const countPuso1 = document.getElementById("countPuso1")
 
-function clickLove1(){
-  let totalLove1 = parseInt(countlove1.value) + 1
-  countLove1.textContent = totalLove1.toString()
+function clickPuso1(){
+  let totalPuso1 = parseInt(countAngry1.value) + 1
+  countPuso1.textContent = totalPuso1.toString()
 }  
-btnLove1.addEventListener("click",clickLove1)
+btnPuso1.addEventListener("click",clickPuso1)
 
-const btnLove2 = document.getElementById("btnLove2")
-const countLove2 = document.getElementById("countLove2")
+const btnPuso2 = document.getElementById("btnPuso2")
+const countPuso2 = document.getElementById("countPuso2")
 
-function clickLove2(){
-  let totalLove2 = parseInt(countlove2.value) + 1
-  countLove2.textContent = totalLove2.toString()
+function clickPuso1(){
+  let totalPuso2 = parseInt(countAngry1.value) + 1
+  countPuso2.textContent = totalPuso2.toString()
 }  
-btnLove2.addEventListener("click",clickLove2)
+btnPuso2.addEventListener("click",clickPuso2)
 
 const btnAngry1 = document.getElementById("btnAngry1")
 const countAngry1 = document.getElementById("countAngry1")
